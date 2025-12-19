@@ -179,33 +179,9 @@ body{
     margin-left: 10px;
     text-align: center;
 }
-.footerbutton{
-    padding: 15px;
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    font-size: 15px;
-    border-radius: 10px;
-    border: 1px solid black;
-    animation: button 2s infinite;
-    width: 100px;
-    margin-top: 10px;
-    margin-left:60px;
-}
 p{
     text-indent: 20px;
     font-size: 18px;
-}
-.footerbutton:hover{
-    background-color: rgb(255, 255, 255);
-    color: rgb(17, 16, 16);
-    width: 100px;
-}
-@keyframes button {
-    0%{transform: scale(1);}
-    50%{transform: scale(1.1);}
-    100%{transform: scale(1);}
 }
 footer{
     background-color: rgb(212, 179, 28);
