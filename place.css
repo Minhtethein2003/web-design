@@ -177,7 +177,7 @@ footer{
     text-decoration: none;
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
     font-size: 20px;
 }
 .footerli a{
