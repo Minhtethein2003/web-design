@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(186, 247, 20);
+    background-color: rgb(32, 241, 231);
     width: 100%;
     height: 200px;
     border-radius: 15px;
@@ -71,4 +71,96 @@ body{
 .btn2:hover{
     color: black;
     background-color: white;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.footercontent{
+    width: 20%;
+    height: 350px;
+    background-color: rgb(209, 204, 204);
+    border-radius: 15px;
+}
+.footerimg1{
+    border-radius: 15px;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.footerimg{
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.footerhead{
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    text-align: center;
+}
+p{
+    text-indent: 20px;
+    font-size: 18px;
+}
+footer{
+    background-color: rgb(214, 201, 18);
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+}
+.footertext{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 15px;
+    text-align: center;
+}
+.left{
+    display: flex;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    gap: 10px;
+    margin-right: 15px;
+    flex-direction: row-reverse;
+}
+.footerimg:hover{
+    width: 45px;
+    height: 45px;
+}
+.footerul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+}
+.footerli a{
+    text-decoration: none;
+    color: rgb(15, 14, 14);
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.footerli a:hover{
+    background-color: black;
+    color: white;
+}
+.footerli a:active{
+    color: red;
+    font-style: italic;
 }
