@@ -72,6 +72,56 @@ body{
     color: black;
     background-color: white;
 }
+.tablecontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+img{
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.foodname{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+}
+table th, table td{
+    border: 2px solid black;
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;;
+}
+table th{
+    background-color: rgba(31, 146, 140, 0.445);
+    font-weight: bold;
+}
+table th:hover{
+    background-color: rgb(32, 241, 231);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+table td:hover{
+    background-color: rgb(30, 245, 234);
+    cursor: pointer;
+    transition: background-color 0.3s ease
+}
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
 .footer{
     display: flex;
     flex-wrap: wrap;
