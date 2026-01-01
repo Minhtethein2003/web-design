@@ -39,43 +39,6 @@ body{
     color: rgb(235, 65, 65);
     font-style: italic;
 }
-.btn1{
-    border: 2px solid black;
-    padding: 10px 10px;
-    border-radius: 12px;
-    font-size: 20px;
-    margin-left: 40px;
-    font-weight: 700;
-    text-decoration: none;
-    color: black;
-}
-.btn1:hover{
-    color: white;
-    background-color: black;
-}
-.btn2{
-    border: 2px solid black;
-    padding: 5px 5px;
-    border-radius: 12px;
-    font-size: 20px;
-    color: white;
-    background-color: black;
-    width: 100px;
-    height: 35px;
-    margin-left: 20px;
-    font-weight: 700;
-    text-decoration: none;
-    color: white;
-    text-align: center;
-}
-.btn2:hover{
-    color: black;
-    background-color: white;
-}
-.btn2:active{
-    color: red;
-    font-style: italic;
-}
 .subheader{
     text-align: center;
     font-size: 30px;
